@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --main-text-color: #1f618d;
+    --text1-color: antiquewhite;
+}
+
+body {
+    background: linear-gradient(45deg, #1f618d, #5f2c82);
+    padding: 5%;
+}
+
+.heading {
+    
+    background-color: var(--main-text-color);
+    color: var(--text1-color);
+    border-radius: 50px;
+display: r;
+    display: grid;
+    place-items: center;
+
+}
+
+.heading h2 {
+    background-color: #FF5733;
+    color: var(--text1-color);
+}
+
+.heading h1 {
+    position: relative;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 50px;
+}
+td{
+    width: 100%;
+}
+
+.heading img {
+    position: relative;
+
+    width: 250px;
+    height: 250px;
+    clip-path: circle(50%);
+    position: calc(center);
+}
+
+#presentation {
+    background-color: aliceblue;
+    color: #1f618d;
+    border-radius: 50px;
+
+}
+
+#academico {
+    padding: 2%;
+    background-color: antiquewhite;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    border-radius: 50px;
+
+}
+
+h2 {
+    color: var(--main-text-color);
+    font-family: "Playwrite GB S", cursive;
+
+}
+
+strong {
+    text-decoration: double;
+    color: #FF5733;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    padding: 2%;
+
+}
